@@ -27,6 +27,11 @@ variable "receive_wait_time_seconds" {
   description = "Time to wait for long polling"
 }
 
+variable "tags" {
+  default     = {}
+  description = "Tags to apply to created resources"
+}
+
 variable "visibility_timeout_seconds" {
   default = 14400
 }
